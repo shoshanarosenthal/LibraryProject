@@ -1,9 +1,9 @@
 from enum import Enum
-from flask import Flask, logging, request, jsonify # type: ignore
-from flask_sqlalchemy import SQLAlchemy # type: ignore
-from flask_cors import CORS # type: ignore
+from flask import Flask, logging, request, jsonify 
+from flask_sqlalchemy import SQLAlchemy 
+from flask_cors import CORS 
 from datetime import datetime, timedelta
-from sqlalchemy import Enum as SQLAlchemyEnum # type: ignore
+from sqlalchemy import Enum as SQLAlchemyEnum 
 import logging
 
 app = Flask(__name__)
